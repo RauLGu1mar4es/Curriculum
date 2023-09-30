@@ -96,6 +96,20 @@ body
     margin: 10px 0;
     cursor: pointer;
 }
+
+.contactInfo ul li a {
+    text-decoration: none;
+    color: #f0f0f0;
+}
+
+.contactInfo ul li a:hover {
+    color: black;
+}
+
+.text {
+    padding: 7px;
+
+}
 .contactInfo ul li .icon
 {
     display: inline-block;
@@ -164,17 +178,22 @@ body
     color: #003147;
     text-transform: uppercase;
     letter-spacing: 1px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
+    
 }
 p
 {
     color: #333;
+    font-size: 14px;
+    padding-bottom: 10px;
+    
 }
 .about .box
 {
     display: flex;
     flex-direction: row;
-    margin: 20px 0;
+    margin: 10px 0;
+    
 }
 .skills .box
 {
@@ -190,6 +209,7 @@ p
     text-transform: uppercase;
     color: #848c99;
     font-weight: 500;
+    
 }
 .skills .box .percent
 {
